@@ -3,23 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>site curso em video</title>
-    <link rel="stylesheet" href="estilos/style.css">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    <main>
-        <header>
-            <h1>Cursos gratis</h1>
+    <div class="container">
+        <h1>Lista de Tarefas</h1>
+        <form id="taskForm">
+            <input type="text" id="taskInput" placeholder="Adicionar nova tarefa" required>
+            <button type="submit">Adicionar</button>
+        </form>
+        <ul id="taskList"></ul>
+    </div>
 
-        </header>
-        <article>
-            <h2>Curso de HTML</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas vel aliquam molestias nulla maxime veniam molestiae, iusto aliquid, placeat, temporibus rem odit reiciendis mollitia consectetur quod pariatur nihil. Aliquam, ipsa.</p>
-        </article>
-        <article>
-            <h2>Tabalhe em JAVA</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam recusandae earum dolorem rem illo expedita voluptates dolores consectetur commodi ea accusantium velit itaque maiores libero nemo in, pariatur voluptatibus dolore!</p>
-        </article>
-    </main>
+    <script src="./main.js"></script>
 </body>
 </html>
