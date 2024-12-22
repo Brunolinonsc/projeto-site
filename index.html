@@ -1,25 +1,22 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>site curso em video</title>
-    <link rel="stylesheet" href="estilos/style.css">
+  <title>Formulário com Validação</title>
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <main>
-        <header>
-            <h1>Cursos gratis</h1>
-
-        </header>
-        <article>
-            <h2>Curso de HTML</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas vel aliquam molestias nulla maxime veniam molestiae, iusto aliquid, placeat, temporibus rem odit reiciendis mollitia consectetur quod pariatur nihil. Aliquam, ipsa.</p>
-        </article>
-        <article>
-            <h2>Tabalhe em JAVA</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam recusandae earum dolorem rem illo expedita voluptates dolores consectetur commodi ea accusantium velit itaque maiores libero nemo in, pariatur voluptatibus dolore!</p>
-        </article>
-    </main>
+    <div class="container">
+        <form id="Formulario">
+            <label for="campoA">Campo A:</label>
+            <input type="number" id="campoA" name="campoA">
+            <br>
+            <label for="campoB">Campo B:</label>
+            <input type="number" id="campoB" name="campoB">
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="mensagem"></p>
+</div>
+  <script src="script.js"></script>
 </body>
 </html>
