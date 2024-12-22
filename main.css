@@ -1,0 +1,56 @@
+.container{
+    background-color: rgb(210, 238, 54);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.1) ;
+    width: 550px;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:rgb(219, 231, 177);
+}
+
+input{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button{
+    color: white;
+    background-color: rgb(81, 115, 207);
+    border-radius: 5px;
+
+
+}
+table th{
+    background-color: #f4f4f4;
+    padding: 12px;
+    padding-right: 175px;
+    text-align: center;
+    border-bottom: 1px solid #fd0505;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+div{
+    display: block;
+    unicode-bidi: isolate;
+}

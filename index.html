@@ -3,23 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>site curso em video</title>
-    <link rel="stylesheet" href="estilos/style.css">
+    <title>Agenda de Contatos</title>
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <main>
+    <div class="container">
         <header>
-            <h1>Cursos gratis</h1>
-
+            <h1>Agenda de Contatos</h1>
         </header>
-        <article>
-            <h2>Curso de HTML</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas vel aliquam molestias nulla maxime veniam molestiae, iusto aliquid, placeat, temporibus rem odit reiciendis mollitia consectetur quod pariatur nihil. Aliquam, ipsa.</p>
-        </article>
-        <article>
-            <h2>Tabalhe em JAVA</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam recusandae earum dolorem rem illo expedita voluptates dolores consectetur commodi ea accusantium velit itaque maiores libero nemo in, pariatur voluptatibus dolore!</p>
-        </article>
-    </main>
+        <form id="agenda-contatos">
+            <input id="nome-agenda" type="text" required placeholder="Nome"required/>
+            <input id="tel-agenda" type="tel"required placeholder="Telefone"required/>
+            <button type="submit">Confirmar</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th id="Nome">NOME</th>
+                    <th id="Telefone">TELEFONE</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script src="./main.js"></script>
 </body>
 </html>
